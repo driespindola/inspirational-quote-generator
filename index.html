@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspirational Quote Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./components/favcon.svg">
+</head>
+<body>
+<main class="quote-generator">
+    <div class="quote-header">
+        <h2>I LOVE MYSELF</h2>
+        <p>Find inspirational quotes and reaffirm yourself 
+            everyday that you matter</p>
+    </div>
+    <div class="quotes-content">
+        <img id="yoga" src="./components/yoga.png" alt="Yoga Women">
+        <iframe id="player" width="" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&hide_artwork=1&autoplay=1&feed=%2FDJ_Markino%2Fyoga-session-08-music-for-meditation-and-relaxation%2F" frameborder="0" allow="autoplay"></iframe>
+        <div id="quotes-box">
+            <span id="quotes"></span>
+        </div>
+        <button id="btn" class="btn" onclick="getRandomQuote()">GENERATE QUOTE</button>
+    </div>
+    <script src="script.js"></script>
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+</main>    
+</body>
+</html>
